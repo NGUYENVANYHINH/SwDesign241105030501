@@ -19,7 +19,7 @@ Lớp này sẽ kết nối với cơ sở dữ liệu của Project Management 
 Chứa cơ sở dữ liệu cần thiết cho hệ thống. Hệ thống Payroll cần một cơ sở dữ liệu riêng để lưu trữ thông tin về nhân viên, bảng chấm công, và phiếu lương.
 ### Vẽ biểu đồ package mô tả kiến trúc
 ![](https://www.planttext.com/api/plantuml/png/b5J1Ji904BttAoQSyC35emU3qCI33O7G4A-RPKCRofPiTqqQuy6J1p_14nfYmaL9FD4O3vlm7_q2Vy4TG46wZNZgDlFUcpVpjltCFkg994AgKUGamv23Y1FcZ0aTaW63YfTd3sCu3qaCRfXdTnogRS4InYMHOSp18oaJHnMuTW1eH99aXNL3nbi1uJtpB1GwYd1VXCwDiz_6pRDx6a0lpwPGxJ9n5L9cwR268QgHBvxum5k-BYTyOAatWtmn7JNrcxNg6uU17-i9jtZnXKhXKXc-HCeBU3Y-WgfB984pIfdHAdgx2694hy6jG3-Q7UWPjzTjzffTr-iedClJxmOwrxVSRHnR79gnbR69tgfT6Gii5GsXNfka8euYrDXF1sgrqxA5mWd8pKdg2NNs0lmFjGpsMs9d7qOWrJC5D5yygmFfsppBsBiDa5kMXk57vYM5FcutMfKTQwE2oZRpFqIAavH4_wCZWvKtQJvI8pa7lBYb4tmBRh974RmlkrxAV1z0hJFUnp_65m000F__0m00)
-## 2. Cơ chế phân tích
+## Cơ chế phân tích
 ### Đề xuất các cơ chế phân tích :
 #### Xác thực và phân quyền: Đảm bảo chỉ nhân viên mới có thể xem và chỉnh sửa dữ liệu của riêng họ.
 +Lý do: Tăng cường tính bảo mật và phù hợp với yêu cầu không cho phép truy cập dữ liệu của nhân viên khác.
@@ -29,7 +29,7 @@ Chứa cơ sở dữ liệu cần thiết cho hệ thống. Hệ thống Payroll
 +Lý do: Đáp ứng yêu cầu bảo mật thông tin nhân viên nhạy cảm.
 #### Đồng bộ hóa dữ liệu: Hệ thống mới cần lấy dữ liệu từ cơ sở dữ liệu DB2 mà không làm ảnh hưởng đến dữ liệu gốc.
 +Lý do: Tương thích với cơ sở dữ liệu cũ và tránh làm gián đoạn hệ thống hiện có.
-## 3.Phân tích ca sử dụng
+## Phân tích ca sử dụng
 ###  Phân tích ca sử dụng "Payment" (Thanh toán).
 ####  1. Xác định các tác nhân (actors).
 +Admin (Quản trị viên): Người sẽ xem báo cáo thanh toán và theo dõi việc thực hiện thanh toán.
@@ -91,7 +91,7 @@ Chứa cơ sở dữ liệu cần thiết cho hệ thống. Hệ thống Payroll
 ![Analysis Class Diagram](https://www.planttext.com/api/plantuml/png/V94nZi8m44LxdyBbRf4Bf4A2RMbOQUk9_GK66wEPIII4E1a5HzehB2OXe0XjOqiUp_Fxuz_BTIPAh6sAnaKIiL_f4FCHi2TZRHLyMVUKSDkjj4qA-XqI7B7_-3HdCtGzplekJrhkLvlSilnatk6EEN3UmkbyGxp6iaqDk53N694BA8KexyWhS1TShsKxYg4yyg9Iz3Gp_hDRa593Ca24kWc0eHpGJHZZHAhgcRCUXY5lom_PsjuoEuZ0s-PefkMNZb6jxcE8cM7loxVy0G00__y30000)
 #### 5.Biểu đồ Sequence (Sequence Diagram)
 ![Sequence Diagram](https://www.planttext.com/api/plantuml/png/X9112i8m44NtEKKkq0k8IDLsuKweFS0u6I6GD6KoBVHiBZoILp05RQCRTyF_xp7CFE-FCWgm3DufG0ciQz-xC16fpw2BtHAs9xtHTIV4Mgmd13Ogwn9vUSSDyMYH4juCLszbuRK10VMBPMQL-ZqYnJZBCD9_zGmJ1-UgGpBQFb6PmuI1JLpFsHRVvnn3TxFiLoEcdKQLr9dvAoy0003__mC0)
-## 5.Hợp nhất kết quả phân tích các ca sử dụng "Payment" và "Maintain Timecard"
+## Hợp nhất kết quả phân tích các ca sử dụng "Payment" và "Maintain Timecard"
 ### Lớp Employee (Nhân viên):
 +Vai trò trong Payment: Nhận lương dựa trên giờ làm việc, mức lương hoặc hoa hồng.
 
