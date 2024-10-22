@@ -114,5 +114,6 @@ Chứa cơ sở dữ liệu cần thiết cho hệ thống. Hệ thống Payroll
 +Vai trò: Xác minh và lưu trữ thẻ chấm công.
 
 +Lớp PayrollDatabase (Cơ sở dữ liệu lương):
+
 +Vai trò: Lưu trữ tất cả thông tin nhân viên, thẻ chấm công, và thanh toán.
 ### Mô hình tổng hợp: Nhân viên nhập thẻ chấm công, dữ liệu được xử lý để tính lương và thanh toán, quản trị viên có thể truy vấn báo cáo thanh toán đầy đủ.
