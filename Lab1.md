@@ -91,3 +91,28 @@ Chứa cơ sở dữ liệu cần thiết cho hệ thống. Hệ thống Payroll
 ![Analysis Class Diagram](https://www.planttext.com/api/plantuml/png/V94nZi8m44LxdyBbRf4Bf4A2RMbOQUk9_GK66wEPIII4E1a5HzehB2OXe0XjOqiUp_Fxuz_BTIPAh6sAnaKIiL_f4FCHi2TZRHLyMVUKSDkjj4qA-XqI7B7_-3HdCtGzplekJrhkLvlSilnatk6EEN3UmkbyGxp6iaqDk53N694BA8KexyWhS1TShsKxYg4yyg9Iz3Gp_hDRa593Ca24kWc0eHpGJHZZHAhgcRCUXY5lom_PsjuoEuZ0s-PefkMNZb6jxcE8cM7loxVy0G00__y30000)
 #### 5.Biểu đồ Sequence (Sequence Diagram)
 ![Sequence Diagram](https://www.planttext.com/api/plantuml/png/X9112i8m44NtEKKkq0k8IDLsuKweFS0u6I6GD6KoBVHiBZoILp05RQCRTyF_xp7CFE-FCWgm3DufG0ciQz-xC16fpw2BtHAs9xtHTIV4Mgmd13Ogwn9vUSSDyMYH4juCLszbuRK10VMBPMQL-ZqYnJZBCD9_zGmJ1-UgGpBQFb6PmuI1JLpFsHRVvnn3TxFiLoEcdKQLr9dvAoy0003__mC0)
+## 5.Hợp nhất kết quả phân tích các ca sử dụng "Payment" và "Maintain Timecard"
+### Lớp Employee (Nhân viên):
++Vai trò trong Payment: Nhận lương dựa trên giờ làm việc, mức lương hoặc hoa hồng.
+
++Vai trò trong Maintain Timecard: Nhập thông tin giờ làm việc.
+
++Tích hợp: Nhân viên vừa nhập thẻ chấm công vừa nhận lương từ hệ thống.
+### Lớp Timecard (Thẻ chấm công):
++Vai trò: Chứa dữ liệu về giờ làm việc của nhân viên.
+
++Tích hợp: Là nguồn dữ liệu đầu vào cho việc tính lương.
+### Lớp Payroll (Xử lý lương):
++Vai trò: Tính toán lương dựa trên thẻ chấm công và thông tin lương/hoa hồng.
+
++Tích hợp: Liên kết giữa thẻ chấm công và thanh toán lương.
+### Lớp PaymentService (Dịch vụ thanh toán):
++Vai trò: Xử lý thanh toán (chuyển khoản, in hóa đơn).
+
++Tích hợp: Thực hiện thanh toán dựa trên kết quả tính lương.
+### Lớp TimecardService (Dịch vụ thẻ chấm công):
++Vai trò: Xác minh và lưu trữ thẻ chấm công.
+
++Lớp PayrollDatabase (Cơ sở dữ liệu lương):
++Vai trò: Lưu trữ tất cả thông tin nhân viên, thẻ chấm công, và thanh toán.
+### Mô hình tổng hợp: Nhân viên nhập thẻ chấm công, dữ liệu được xử lý để tính lương và thanh toán, quản trị viên có thể truy vấn báo cáo thanh toán đầy đủ.
