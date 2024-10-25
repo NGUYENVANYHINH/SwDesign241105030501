@@ -5,7 +5,7 @@
 
 ### Đề xuất kiến trúc:
 #
-Hệ thống Payroll System là một hệ thống quản lý bảng lương , có nhiều người dùng và tích hợp với cơ sở dữ liệu khác nhau.Kiến trúc phù hợp cho hệ thống này là kiến trúc phân lớp (Layered Architecture), với 4 lớp chính:
+Hệ thống Payroll System là một hệ thống quản lý bảng lương , có nhiều người dùng và tích hợp với cơ sở dữ liệu khác nhau.Kiến trúc phù hợp cho hệ thống này là kiến trúc phân lớp  (Layered Architecture), với 4 lớp chính:
 #### Lớp Giao diện (Presentation Layer):
 Chịu trách nhiệm hiển thị thông tin và nhận đầu vào từ người dùng. Lớp này sẽ gồm các giao diện cho các chức năng như nhập bảng chấm công, chọn phương thức thanh toán, và báo cáo.
 Các công nghệ có thể sử dụng: Java Swing hoặc .NET Windows Forms cho giao diện desktop.
