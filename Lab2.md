@@ -1,22 +1,36 @@
-1. Maintain Timecard
-Tác nhân liên quan:
-Employee
-Mô tả:
+
+#  LAB 2
+# PHÂN TÍCH KIẾN TRÚC, CƠ CHẾ, CA SỬ DỤNG HỆ THỐNG "PAYROLL SYSTEM"
+
+##  Đề xuất kiến trúc, giải thích lý do lựa chọn và ý nghĩa từng thành phần trong kiến trúc, vẽ biểu đồ package mô tả kiến trúc
+### 1. Maintain Timecard
+   
+#### Tác nhân liên quan:
+
++Employee
+
+- Mô tả:
 Nhân viên nhập thông tin thời gian làm việc trong tuần vào thẻ chấm công và có thể chỉnh sửa, cập nhật cho đến khi nộp.
 
-Quy trình:
-Nhân viên chọn chức năng nhập thẻ chấm công.
-Hệ thống kiểm tra thẻ chấm công hiện tại cho nhân viên trong kỳ trả lương hiện tại:
-Nếu chưa có, hệ thống sẽ tạo thẻ chấm công mới với ngày bắt đầu và kết thúc của kỳ hiện tại.
-Nhân viên nhập các ngày làm việc, giờ làm việc và mã dự án liên quan.
-Hệ thống lưu thông tin vào thẻ chấm công.
-Khi nhân viên gửi thẻ chấm công, hệ thống kiểm tra tính hợp lệ:
-Số giờ làm phải nằm trong khoảng hợp lệ và không vượt quá giới hạn.
-Hệ thống lưu trạng thái "đã gửi" và khóa chỉnh sửa.
-Biểu đồ lớp phân tích:
-Timecard: Lưu trữ ngày bắt đầu, ngày kết thúc, số giờ làm mỗi ngày và trạng thái.
-Employee: Liên kết với Timecard (1-n).
-ProjectManagementDatabase: Hỗ trợ lấy mã dự án để nhân viên nhập vào thẻ.
+- Quy trình:
+
+--> Nhân viên chọn chức năng nhập thẻ chấm công 
+--> Hệ thống kiểm tra thẻ chấm công hiện tại cho nhân viên trong kỳ trả lương hiện tại:
+--> Nếu chưa có, hệ thống sẽ tạo thẻ chấm công mới với ngày bắt đầu và kết thúc của kỳ hiện tại.
+--> Nhân viên nhập các ngày làm việc, giờ làm việc và mã dự án liên quan.
+--> Hệ thống lưu thông tin vào thẻ chấm công.
+--> Khi nhân viên gửi thẻ chấm công, hệ thống kiểm tra tính hợp lệ:
+--> Số giờ làm phải nằm trong khoảng hợp lệ và không vượt quá giới hạn.
+--> Hệ thống lưu trạng thái "đã gửi" và khóa chỉnh sửa.
+
+- Biểu đồ lớp phân tích:
+
++Timecard: Lưu trữ ngày bắt đầu, ngày kết thúc, số giờ làm mỗi ngày và trạng thái.
+
++Employee: Liên kết với Timecard (1-n).
+
++ProjectManagementDatabase: Hỗ trợ lấy mã dự án để nhân viên nhập vào thẻ.
+- sơ đồ 
 2. Run Payroll
 Tác nhân liên quan:
 System Clock
