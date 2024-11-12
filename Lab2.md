@@ -31,6 +31,7 @@ Nhân viên nhập thông tin thời gian làm việc trong tuần vào thẻ ch
 
 +ProjectManagementDatabase: Hỗ trợ lấy mã dự án để nhân viên nhập vào thẻ.
 - sơ đồ 
+!(https://www.planttext.com/api/plantuml/png/b5BBQiCm4BphAnQVqj8SUZN1X3Q55feIIA7djRKuRlG8aXmmfL_MGp-flr0faModBwWEHjx7xCoiFjxUvzQXSQqKp6uR1KPROfL0Q-56xeJkYE25WJzJK2WfXxKpZQfZY6BD7Jz905I6qD5Z8wb2moU78GiVoI5yBu0K7txFSaYLiTssfMnSt-xYPQZpBNlTSFRA8jkKwDb-6Pa8Z-V6s4QtnZvfioK_O8cxsP7YGhUbe2B17HYvK7AbjI1KaIfoVXi09dmaxm2PHuZ4TInjyat02ZkZXLXtrf6CAW1g6bn8PkVzQdum3lVq7zjMHZzJvPQei2P9AZY69LeQCxZUeAdfePKbUPqUuxwnRdRSTn6m-gUINMOmdHQGdMS3irDb8Vr7Aa6nVg4X-YjDnkP-fU7vVW800F__0m00)
 2. Run Payroll
 Tác nhân liên quan:
 System Clock
