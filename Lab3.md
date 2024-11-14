@@ -79,5 +79,4 @@
 ##### Tầng Presentation chỉ giao tiếp với tầng Business Logic.
 ##### Business Logic xử lý các nghiệp vụ và truy xuất dữ liệu từ Data Access hoặc gọi đến Integration Layer khi cần tương tác với hệ thống ngoài.
 
-### 5. Trình bày tài liệu thiết kế
-Sử dụng Markdown kết hợp PlantUML để tạo tài liệu thiết kế trực quan và dễ hiểu.
+
