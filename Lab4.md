@@ -2,7 +2,7 @@
 
 ## **1. Giới thiệu**
 
-Tài liệu này trình bày chi tiết thiết kế hệ thống **Payroll System**, tập trung vào các ca sử dụng chính: **Login**, **Maintain Timecard**, và **Run Payroll**. Thiết kế được xây dựng với mục tiêu đảm bảo tính mô-đun, khả năng mở rộng, và bảo mật, tuân thủ các nguyên tắc Phân tích và Thiết kế Hướng đối tượng (OOAD) với UML 2.0.
+Tài liệu này trình bày chi tiết thiết kế hệ thống **Payroll System**, tập trung vào các ca sử dụng chính: **Login**, **Maintain Timecard**, và **Run Payroll**. Thiết kế được xây dựng với mục tiêu đảm bảo tính mô-đun, khả năng mở rộng, và bảo mật, tuân thủ các nguyên tắc Phân tích và Thiết kế Hướng đối tượng 
 
 ---
 
