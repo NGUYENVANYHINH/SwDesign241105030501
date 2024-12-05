@@ -112,4 +112,25 @@
 
 ### **Biểu đồ lớp (Class Diagram)**
 
-![]()
+![](https://www.planttext.com/api/plantuml/png/X5HBRjim4Dth55pAW7q1mJ22E0KQe0vSs43NOsfYinP9WHmP48AUh8iUgLSeAP6Y52lfHfJclPbvyw7-_lxpO0aCDRBAU0NMiaTGrqDh2ILxonXRCJAWB70IMdqJbWhcdsjFEoPauwYCbLXhAoYleUKNvDU2xSFRafsSmxDwrKMNmRyP2TvrKR2R5cNsAmiAzaOeEg2v2Ov1G-rDQ5v0Oi4EvBxEoVwzmSQPksCT4_Q2Edn6JipfEL2MHzqvVq8SYTC_aTCE59nHeg8d83Y1ZKhv1SmPNnfvGcD3hxRHjkaRAYHoCAM3Tr2llyYwqYtYaXq3q6i_8st7mN9kXEk1WDY1nLpupYy6oZ74BbZCufmYsh4jt72WHsM9Sry_j4PNrLOhyYUQEA7GiD6AJ4TX6XLyyt7tELIygO3GWJDobsnMqskbWKAr2atltYMRZG5IDug2so9DDvKLkQ6Q6EJvQR9kwcx_eFKxi4Eww7A4T5FOZq5VT827fB6WaFIY6sD_Q7F5ij-COR3BNdcQhoQeldfwFcc6M-NUEcnXmKP1kWIf2t6menk_McrISzxPtrtRR79D9uxtE-BXOUtcuJY13-0K_CCBw6b3jV_XfMoVqWRDmwYcIHvGbVxN-Gy00F__0m00)
+
+## **3. Biểu đồ trạng thái**
+**Trạng thái của lớp Paycheck**
+
+![](https://www.planttext.com/api/plantuml/png/UhzxlqDnIM9HIMbk3bUqLgo2hgwTWdDHQc99QWeNb0QB1QJcfMJcfIjOAGGaLkQcvfKevAQMPEIdADWgA3abvcKheQekoimhmQKSBAd41JCHh3unCmL9RN5fSd9gSN5QQGuNt2IuiQbWbI0MiZe7e6aWFm00003__mC0)
+
+## **4. Kết luận**
+
+Thiết kế  cung cấp chi tiết các lớp và quan hệ trong hệ thống **Payroll System**, bao gồm:  
+- Các **thuộc tính** và **phương thức** của từng lớp.  
+- Các mối **quan hệ** giữa các lớp, bao gồm quan hệ kết hợp và phụ thuộc.  
+- **Biểu đồ lớp (Class Diagram)** mô tả rõ cấu trúc hệ thống.  
+- **Biểu đồ trạng thái (State Diagram)** thể hiện các trạng thái chính của đối tượng quan trọng như **Paycheck**.
+
+Với việc sử dụng **UML**, thiết kế trở nên:  
+- **Dễ hiểu**: Mô hình hóa trực quan, rõ ràng.  
+- **Rõ ràng**: Phân chia các trách nhiệm của lớp và mối quan hệ logic.  
+- **Dễ triển khai**: Có thể dễ dàng chuyển đổi từ thiết kế sang mã nguồn khi thực hiện.  
+
+Thiết kế tạo nền tảng vững chắc cho việc triển khai hệ thống, đảm bảo đáp ứng đầy đủ yêu cầu chức năng, bảo mật và khả năng mở rộng trong tương lai.
+
