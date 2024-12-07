@@ -1,6 +1,6 @@
 # **Thiết kế chi tiết các lớp trong Payroll System**
 
-## **1. Xác định đúng các operations và methods**
+## **1. Xác định  các operations và methods**
 
 ### **1.1 Operations và methods chính**
 
